@@ -1,9 +1,61 @@
 * {
     box-sizing: border-box;
-    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 body {
     background-color: #fff7F0;
     width: 100%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.logo-consult {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+}
+
+.consultation {
+    text-decoration: none;
+    padding: 1em 2em;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 2em;
+    font-size: 0.9em;
+}
+
+.top-words {
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.top-words p {
+    width: 80%;
+    line-height: 1.5em;
+    color: #7A746E;
 }
