@@ -59,3 +59,98 @@ h1 {
     line-height: 1.5em;
     color: #7A746E;
 }
+
+
+.grid {
+    display: grid;
+    grid-template-areas: 'graphic graphic'
+        'ui apps '
+        'ill ill'
+        'photo photo'
+        'motion motion';
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 343px 182px 158px 182px 182px;
+    gap: 24px 25px;
+    margin-top: 2em;
+}
+
+.grid-word {
+    display: flex;
+
+    font-size: 1.5em;
+
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 0.5em;
+    padding: 2em 1em;
+    justify-content: space-between;
+
+}
+
+.grid-images {
+
+    align-self: flex-end;
+}
+
+.grid-item-1 {
+    grid-area: graphic;
+    background-color: #755CDE;
+}
+
+.grid-item-2 {
+    grid-area: ui;
+    background-color: #F6A560;
+
+
+}
+
+.grid-item-3 {
+    grid-area: apps;
+    background-color: #F39E9E;
+
+
+}
+
+.grid-item-4 {
+    grid-area: ill;
+    background-color: #EB7565;
+}
+
+.grid-item-5 {
+    grid-area: photo;
+    background-color: #61C4B7;
+}
+
+.grid-item-6 {
+    grid-area: motion;
+    background-color: #552049;
+}
+
+
+
+.img-1 {
+    width: 128px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    .grid {
+        display: grid;
+        grid-template-areas: 'graphic graphic ui apps'
+            'graphic graphic ill ill '
+            'photo photo motion motion';
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 182px 182px 182px;
+    }
+}
