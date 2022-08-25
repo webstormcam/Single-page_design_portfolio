@@ -184,6 +184,14 @@ h2 {
         grid-template-rows: 182px 182px 182px;
     }
 
+    header {
+        max-width: 690px;
+    }
+
+    main {
+        max-width: 690px;
+    }
+
 
     .bio-section {
         flex-direction: row;
