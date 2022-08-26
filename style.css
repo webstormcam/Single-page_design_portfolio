@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 header {
@@ -25,6 +26,8 @@ header {
 main {
     padding: 1em;
     max-width: 343px;
+
+
 }
 
 .logo-consult {
@@ -174,6 +177,35 @@ h2 {
 }
 
 
+.my-work {
+    text-align: center;
+    margin-top: 6em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+.work-photos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    margin: 1em 0em;
+
+}
+
+.moving-photos {
+    border-radius: 1em;
+    width: 270px;
+}
+
+
 @media screen and (min-width:768px) {
     .grid {
         grid-template-areas: 'graphic graphic ui apps'
@@ -198,7 +230,7 @@ h2 {
         justify-content: space-between;
         align-items: flex-start;
         text-align: left;
-        overflow: visible;
+
         position: relative;
 
     }
