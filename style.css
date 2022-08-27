@@ -210,6 +210,20 @@ h2 {
     width: 270px;
 }
 
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 1.2em;
+}
 
 @media screen and (min-width:768px) {
     .grid {
