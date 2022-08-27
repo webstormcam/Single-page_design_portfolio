@@ -54,6 +54,11 @@ main {
     font-size: 0.9em;
 }
 
+.consultation:hover {
+    background-color: #755CDE;
+    cursor: pointer;
+}
+
 .top-words {
     margin-top: 2em;
     text-align: center;
@@ -225,8 +230,17 @@ h2 {
     padding: 1.2em;
 }
 
+.button:hover {
+    background-color: #755CDE;
+    cursor: pointer;
+}
+
 .orange-consult {
     background-color: #EB7565;
+}
+
+.orange-consult:hover {
+    background-color: #F6A560;
 }
 
 footer {
