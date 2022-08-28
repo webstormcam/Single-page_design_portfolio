@@ -12,9 +12,7 @@ body {
 }
 
 
-.splide__pagination {
-    display: none;
-}
+
 
 #container {
     display: flex;

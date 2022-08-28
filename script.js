@@ -4,6 +4,8 @@
         type: 'loop',
         perPage: 3,
         focus: 'center',
+        pagination:Boolean=false,
+        padding:'80',
         classes:{
             arrows: 'splide__arrows button-section',
 		arrow : 'splide__arrow button',
