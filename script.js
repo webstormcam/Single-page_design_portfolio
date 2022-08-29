@@ -5,7 +5,8 @@
         perPage: 3,
         focus: 'center',
         pagination:Boolean=false,
-        padding:'80',
+        gap:'1em',
+     
         classes:{
             arrows: 'splide__arrows button-section',
 		arrow : 'splide__arrow button',
