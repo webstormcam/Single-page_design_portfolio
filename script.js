@@ -1,4 +1,8 @@
 
+const left = document.querySelector('.left-button')
+const right = document.querySelector('.right-button')
+
+
  document.addEventListener('DOMContentLoaded', function () {
     var splide = new Splide('.splide', {
         type: 'loop',
@@ -13,6 +17,7 @@
 		prev  : 'splide__arrow--prev left-button',
 		next  : 'splide__arrow--next right-button',
         },
+     
 
 
     });
