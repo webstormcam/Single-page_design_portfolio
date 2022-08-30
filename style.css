@@ -287,6 +287,10 @@ footer {
 
 }
 
+.splide__track {
+    overflow: visible;
+}
+
 @media screen and (min-width:768px) {
     .grid {
         grid-template-areas: 'graphic graphic ui apps'
@@ -328,6 +332,10 @@ footer {
 
     .amy-title {
         margin-top: 0em;
+    }
+
+    .moving-photos {
+        width: 540px;
     }
 }
 

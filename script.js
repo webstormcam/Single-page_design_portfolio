@@ -10,6 +10,7 @@ const right = document.querySelector('.right-button')
         focus: 'center',
         pagination:Boolean=false,
         gap:'1em',
+        autoWidth: true,
      
         classes:{
             arrows: 'splide__arrows button-section',
