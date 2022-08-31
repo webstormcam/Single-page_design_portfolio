@@ -224,9 +224,11 @@ h2 {
 .button {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #000000;
     border-radius: 50%;
     padding: 1.2em;
+    border: none;
 }
 
 .button:hover {
@@ -302,6 +304,14 @@ footer {
     order: 2;
     margin-top: 2em;
 
+
+}
+
+svg {
+    filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(102%);
+    position: relative;
+    left: 1em;
+    top: 0.7em;
 
 }
 
