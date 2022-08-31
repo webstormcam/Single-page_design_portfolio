@@ -219,12 +219,7 @@ h2 {
 
 }
 
-.button-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 120px;
-}
+
 
 .button {
     display: flex;
@@ -287,8 +282,25 @@ footer {
 
 }
 
+.splide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .splide__track {
     overflow: visible;
+}
+
+.splide__arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 170px;
+    order: 2;
+
+
 }
 
 @media screen and (min-width:768px) {
