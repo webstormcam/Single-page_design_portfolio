@@ -216,6 +216,7 @@ h2 {
 .moving-photos {
     border-radius: 1em;
     width: 270px;
+    margin-right: 1em;
 
 }
 
@@ -379,6 +380,12 @@ button:nth-child(2) svg {
 
     .footer-items {
         max-width: 690px;
+    }
+
+    .moving-photos {
+
+        margin-right: 2em;
+
     }
 }
 
