@@ -401,6 +401,16 @@ button:nth-child(2) svg {
         grid-template-rows: 182px 182px;
     }
 
+    header {
+        max-width: 1111px;
+        width: 100%;
+
+    }
+
+    main {
+        max-width: 1111px;
+    }
+
 
     .bio-section {
 
