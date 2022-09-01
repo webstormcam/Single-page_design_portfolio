@@ -334,6 +334,7 @@ button:nth-child(2) svg {
 
     header {
         max-width: 690px;
+        padding: 1em 0em;
     }
 
     main {
@@ -354,19 +355,30 @@ button:nth-child(2) svg {
     .amy-image {
         max-width: 364px;
         position: relative;
-        left: -3.5em;
+        left: -5.0em;
     }
 
     .amy-words {
-        padding: 0em 3em;
+        padding: 0em;
+        position: relative;
+        left: -1em;
+    }
+
+    .amy-words p {
+        font-size: ;
     }
 
     .amy-title {
         margin-top: 0em;
+        font-size: 2em;
     }
 
     .moving-photos {
         width: 540px;
+    }
+
+    .footer-items {
+        max-width: 690px;
     }
 }
 
