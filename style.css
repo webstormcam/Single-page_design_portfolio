@@ -392,6 +392,11 @@ button:nth-child(2) svg {
     h2 {
         font-size: 2em;
     }
+
+    .logo {
+        width: 64px;
+        height: 64px;
+    }
 }
 
 
