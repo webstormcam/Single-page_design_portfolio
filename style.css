@@ -380,12 +380,17 @@ button:nth-child(2) svg {
 
     .footer-items {
         max-width: 690px;
+        padding: 0em;
     }
 
     .moving-photos {
 
         margin-right: 2em;
 
+    }
+
+    h2 {
+        font-size: 2em;
     }
 }
 
@@ -405,11 +410,20 @@ button:nth-child(2) svg {
         max-width: 1110px;
         width: 100%;
 
+
     }
 
     main {
         max-width: 1110px;
         width: 100%;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    .top-words p {
+        font-size: 1.2em;
     }
 
     .footer-items {
@@ -445,7 +459,13 @@ button:nth-child(2) svg {
         flex-direction: row;
         width: 1110px;
         justify-content: space-between;
+        padding-left: 4em;
+        padding-right: 7em;
 
+    }
+
+    .consultation {
+        font-size: 1.1em;
     }
 
     .footer-words {
@@ -453,5 +473,19 @@ button:nth-child(2) svg {
         align-items: flex-start;
         max-width: 540px;
 
+    }
+
+    .top-words {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .footer-h2 {
+        font-size: 2.5em;
+    }
+
+    .top-words {
+        max-width: 752px;
     }
 }
