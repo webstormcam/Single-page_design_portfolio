@@ -402,13 +402,14 @@ button:nth-child(2) svg {
     }
 
     header {
-        max-width: 1111px;
+        max-width: 1110px;
         width: 100%;
 
     }
 
     main {
-        max-width: 1111px;
+        max-width: 1110px;
+        width: 100%;
     }
 
     .footer-items {
@@ -437,5 +438,20 @@ button:nth-child(2) svg {
 
     .amy-words {
         padding: 0em 0em;
+        max-width: 540px;
+    }
+
+    .footer-darkbox {
+        flex-direction: row;
+        width: 1110px;
+        justify-content: space-between;
+
+    }
+
+    .footer-words {
+        text-align: left;
+        align-items: flex-start;
+        max-width: 540px;
+
     }
 }
