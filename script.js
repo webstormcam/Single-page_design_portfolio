@@ -27,3 +27,5 @@ const right = document.querySelector('.right-button')
     splide.mount();
 });
 
+
+
