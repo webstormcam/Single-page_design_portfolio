@@ -397,6 +397,16 @@ button:nth-child(2) svg {
         width: 64px;
         height: 64px;
     }
+
+    .footer-darkbox {
+        width: 690px;
+    }
+
+    .footer-words {
+
+        max-width: 540px;
+
+    }
 }
 
 
@@ -433,6 +443,7 @@ button:nth-child(2) svg {
 
     .footer-items {
         max-width: 1110px;
+        margin-bottom: 4em;
     }
 
 
@@ -476,7 +487,7 @@ button:nth-child(2) svg {
     .footer-words {
         text-align: left;
         align-items: flex-start;
-        max-width: 540px;
+
 
     }
 
