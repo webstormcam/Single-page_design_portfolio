@@ -8,7 +8,7 @@ const right = document.querySelector('.right-button')
         type: 'loop',
         perPage: 3,
         focus: 'center',
-        pagination:Boolean=false,
+        // pagination:Boolean=false,
         // gap:'1em',
         autoWidth: true,
         arrowPath:'M8 0 0 8l8 8 1.687-1.687-5.121-5.12h10.241V6.807H4.566l5.121-5.12z',
